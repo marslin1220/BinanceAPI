@@ -1,0 +1,6 @@
+framework module BinanceAPI {
+  umbrella header "BinanceAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

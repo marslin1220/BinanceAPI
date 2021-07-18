@@ -1,0 +1,16 @@
+PODS:
+  - BinanceAPI (0.1.0)
+
+DEPENDENCIES:
+  - BinanceAPI (from `../`)
+
+EXTERNAL SOURCES:
+  BinanceAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BinanceAPI: 067c1034e8653483fb12348c7a2a25e2bf49b8ce
+
+PODFILE CHECKSUM: d59d2271d1d62eea60b38b1d440ed1277e0b8b8c
+
+COCOAPODS: 1.9.3

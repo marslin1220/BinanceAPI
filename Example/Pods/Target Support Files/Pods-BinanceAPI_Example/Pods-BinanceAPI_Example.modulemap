@@ -1,0 +1,6 @@
+framework module Pods_BinanceAPI_Example {
+  umbrella header "Pods-BinanceAPI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

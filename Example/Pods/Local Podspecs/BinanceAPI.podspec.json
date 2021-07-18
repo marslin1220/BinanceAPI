@@ -1,0 +1,22 @@
+{
+  "name": "BinanceAPI",
+  "version": "0.1.0",
+  "summary": "A short description of BinanceAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cheng Lung Lin/BinanceAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cheng Lung Lin": "marslin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Cheng Lung Lin/BinanceAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BinanceAPI/Classes/**/*"
+}

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF4871D527F1E4F915B002F9D98A9E0 /* BinanceAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7703CAFE03F84DC81C3077C2AE2A5A1 /* BinanceAPI-dummy.m */; };
+		0C14A636CFEB6A535127435956025627 /* Pods-BinanceAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BBB5371467ED4293E2E5401168BFDC /* Pods-BinanceAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F66B61038D63FE9BD98DBF3A4CEA350 /* Pods-BinanceAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C886F3AE75E1551A24BD4CC99789B89 /* Pods-BinanceAPI_Tests-dummy.m */; };
+		22DA225AFDC4F56B73687D506736695A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A6A80735E1F424EE676999CFFB88EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		74BD28B6E81F325BDC1871BECC248D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7A175D2502490E2CB390D3C5F9CDAEC9 /* Pods-BinanceAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */; };
+		A56150228AD295FA8311CA270B53ADED /* BinanceAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4D8EE0D97135DD406545EEC9C44973 /* BinanceAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB6AA117A21567D31AFF190A99DB49E /* Pods-BinanceAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CFBB8E734F590601F24CE861519849 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC0A14854FA1C7CF76209120ACA2BD /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2CE62D616E177D169834184EC4F8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A9DEDF4D70DFF116677EB06ED68CB8;
+			remoteInfo = BinanceAPI;
+		};
+		48007EFDBA072F9E82CFCED565FC40E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE00197A2E4CEB0D22BEDD150F3A656;
+			remoteInfo = "Pods-BinanceAPI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4D8EE0D97135DD406545EEC9C44973 /* BinanceAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BinanceAPI-umbrella.h"; sourceTree = "<group>"; };
+		16528D8944DE8EAFF7437771FC9B90F8 /* Pods-BinanceAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BinanceAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		214A9C8CDDED371AADB15E66A2BFDD0D /* Pods-BinanceAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35DBF51FD0DAE3C10C4E0DC83E3D8DEE /* BinanceAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BinanceAPI-Info.plist"; sourceTree = "<group>"; };
+		3D7E834DA4B5A8ABE2D6963B1CB44059 /* BinanceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BinanceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DD5D59B966F149B4DB4289EF6C8239B /* Pods-BinanceAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45B9548C78B546DA1E61BBDF23F76C17 /* Pods_BinanceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BinanceAPI_Tests.framework; path = "Pods-BinanceAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BinanceAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5B7086F13F5DC6DD4321CBD6C5F21016 /* Pods-BinanceAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BinanceAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C886F3AE75E1551A24BD4CC99789B89 /* Pods-BinanceAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BinanceAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		617874EC945B287F7C3F17A9771BA639 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62BBB5371467ED4293E2E5401168BFDC /* Pods-BinanceAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BinanceAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		66CCFB488BD18B1370C15E3691F8165D /* Pods-BinanceAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		69BBB001989FD6082760EF6213578AD7 /* Pods-BinanceAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BinanceAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		76662E06631A01B5F8C0BBBFC63EA3DA /* Pods-BinanceAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BCBB84B3D15ECAE2D8987D9E19BBDC6 /* BinanceAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BinanceAPI.release.xcconfig; sourceTree = "<group>"; };
+		83C4EE4116B92E2CEA71283190F5A4AF /* BinanceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BinanceAPI-prefix.pch"; sourceTree = "<group>"; };
+		8B4C27843D50A6177814F3B8828EC365 /* BinanceAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BinanceAPI.debug.xcconfig; sourceTree = "<group>"; };
+		8E3D18E856C347DBF4395743499726DC /* Pods-BinanceAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93AE9D084067A2A05B09C7933C9AE6B6 /* Pods-BinanceAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BinanceAPI.framework; path = BinanceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DC0A14854FA1C7CF76209120ACA2BD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BinanceAPI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BinanceAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		B5D68EC029946CE931FC72027ABEA711 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BCADA09D5A4D97CF38B1D0B5BED52359 /* BinanceAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BinanceAPI.modulemap; sourceTree = "<group>"; };
+		C55A902A44017D355F9AF59031B9A787 /* Pods_BinanceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BinanceAPI_Example.framework; path = "Pods-BinanceAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4E253D8B40648ABCEEE5D5E0E31196 /* Pods-BinanceAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Example-Info.plist"; sourceTree = "<group>"; };
+		E9A75A435E11117D8722F39D99CCE0F7 /* Pods-BinanceAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BinanceAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		ED0869CB08389F8F419D83658B57F63E /* Pods-BinanceAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7703CAFE03F84DC81C3077C2AE2A5A1 /* BinanceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BinanceAPI-dummy.m"; sourceTree = "<group>"; };
+		FB0924A8BF7A0FCF8673F9337F277005 /* Pods-BinanceAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BinanceAPI_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CA1B8985FED00BC794385A19B2DEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6A80735E1F424EE676999CFFB88EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD54A529B503265F0613AE8EF14D5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD28B6E81F325BDC1871BECC248D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A1145594C0045A21D10C8869C3E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DA225AFDC4F56B73687D506736695A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3994274E55D5A8EC09EB00427A7035 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCADA09D5A4D97CF38B1D0B5BED52359 /* BinanceAPI.modulemap */,
+				F7703CAFE03F84DC81C3077C2AE2A5A1 /* BinanceAPI-dummy.m */,
+				35DBF51FD0DAE3C10C4E0DC83E3D8DEE /* BinanceAPI-Info.plist */,
+				83C4EE4116B92E2CEA71283190F5A4AF /* BinanceAPI-prefix.pch */,
+				0F4D8EE0D97135DD406545EEC9C44973 /* BinanceAPI-umbrella.h */,
+				8B4C27843D50A6177814F3B8828EC365 /* BinanceAPI.debug.xcconfig */,
+				7BCBB84B3D15ECAE2D8987D9E19BBDC6 /* BinanceAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BinanceAPI";
+			sourceTree = "<group>";
+		};
+		66867D782EAA090A331AEBFA9EEA743D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6F4F68FCB10BBF0F2F34C0141ADB /* Pods-BinanceAPI_Example */,
+				A496CEA8BBB44C98839F70A522FFD363 /* Pods-BinanceAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A496CEA8BBB44C98839F70A522FFD363 /* Pods-BinanceAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A75A435E11117D8722F39D99CCE0F7 /* Pods-BinanceAPI_Tests.modulemap */,
+				16528D8944DE8EAFF7437771FC9B90F8 /* Pods-BinanceAPI_Tests-acknowledgements.markdown */,
+				93AE9D084067A2A05B09C7933C9AE6B6 /* Pods-BinanceAPI_Tests-acknowledgements.plist */,
+				5C886F3AE75E1551A24BD4CC99789B89 /* Pods-BinanceAPI_Tests-dummy.m */,
+				66CCFB488BD18B1370C15E3691F8165D /* Pods-BinanceAPI_Tests-Info.plist */,
+				4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */,
+				ED0869CB08389F8F419D83658B57F63E /* Pods-BinanceAPI_Tests.debug.xcconfig */,
+				214A9C8CDDED371AADB15E66A2BFDD0D /* Pods-BinanceAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-BinanceAPI_Tests";
+			path = "Target Support Files/Pods-BinanceAPI_Tests";
+			sourceTree = "<group>";
+		};
+		A9BA1D1A7B47C164D033082408D8FFAF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E834DA4B5A8ABE2D6963B1CB44059 /* BinanceAPI.podspec */,
+				617874EC945B287F7C3F17A9771BA639 /* LICENSE */,
+				B5D68EC029946CE931FC72027ABEA711 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B5DC5ED2CC72CF3D9AFE62710F69D049 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31DC572CA34A3C0C2830A365266959A /* BinanceAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C36E6F4F68FCB10BBF0F2F34C0141ADB /* Pods-BinanceAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FB0924A8BF7A0FCF8673F9337F277005 /* Pods-BinanceAPI_Example.modulemap */,
+				5B7086F13F5DC6DD4321CBD6C5F21016 /* Pods-BinanceAPI_Example-acknowledgements.markdown */,
+				76662E06631A01B5F8C0BBBFC63EA3DA /* Pods-BinanceAPI_Example-acknowledgements.plist */,
+				ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */,
+				69BBB001989FD6082760EF6213578AD7 /* Pods-BinanceAPI_Example-frameworks.sh */,
+				DE4E253D8B40648ABCEEE5D5E0E31196 /* Pods-BinanceAPI_Example-Info.plist */,
+				62BBB5371467ED4293E2E5401168BFDC /* Pods-BinanceAPI_Example-umbrella.h */,
+				8E3D18E856C347DBF4395743499726DC /* Pods-BinanceAPI_Example.debug.xcconfig */,
+				3DD5D59B966F149B4DB4289EF6C8239B /* Pods-BinanceAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-BinanceAPI_Example";
+			path = "Target Support Files/Pods-BinanceAPI_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B5DC5ED2CC72CF3D9AFE62710F69D049 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E190AE9F5DA795DC0C902FB5A41D56FF /* Products */,
+				66867D782EAA090A331AEBFA9EEA743D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31DC572CA34A3C0C2830A365266959A /* BinanceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A3DC0A14854FA1C7CF76209120ACA2BD /* ReplaceMe.swift */,
+				A9BA1D1A7B47C164D033082408D8FFAF /* Pod */,
+				4B3994274E55D5A8EC09EB00427A7035 /* Support Files */,
+			);
+			name = BinanceAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E190AE9F5DA795DC0C902FB5A41D56FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */,
+				C55A902A44017D355F9AF59031B9A787 /* Pods_BinanceAPI_Example.framework */,
+				45B9548C78B546DA1E61BBDF23F76C17 /* Pods_BinanceAPI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52E99011C1D973C69D134A23C4BACC13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C14A636CFEB6A535127435956025627 /* Pods-BinanceAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE1314D5D1FE15867C8535AA609003 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56150228AD295FA8311CA270B53ADED /* BinanceAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87B7BF396D28FC18CF32490CB22EF93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB6AA117A21567D31AFF190A99DB49E /* Pods-BinanceAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F427B7E63D29A8A0A604945FEB5008D /* Pods-BinanceAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2203512EB9767296199B23BEE866C3 /* Build configuration list for PBXNativeTarget "Pods-BinanceAPI_Tests" */;
+			buildPhases = (
+				D87B7BF396D28FC18CF32490CB22EF93 /* Headers */,
+				C718CA9109F816A43307AA2659BCE3CA /* Sources */,
+				39CA1B8985FED00BC794385A19B2DEA7 /* Frameworks */,
+				C8F9601C1CC8A8B3C82F76140D7C0897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26E2C2E7297566234FD7FF4183457EC /* PBXTargetDependency */,
+			);
+			name = "Pods-BinanceAPI_Tests";
+			productName = "Pods-BinanceAPI_Tests";
+			productReference = 45B9548C78B546DA1E61BBDF23F76C17 /* Pods_BinanceAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CE00197A2E4CEB0D22BEDD150F3A656 /* Pods-BinanceAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F3FB88B957589AB45A49846457AED7 /* Build configuration list for PBXNativeTarget "Pods-BinanceAPI_Example" */;
+			buildPhases = (
+				52E99011C1D973C69D134A23C4BACC13 /* Headers */,
+				70E85B474115D94946DBCAE0A864EFF4 /* Sources */,
+				D15A1145594C0045A21D10C8869C3E87 /* Frameworks */,
+				0E9AAC25341E709D059F87CED52542E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682F0426D468975213D6CE0E9502D3C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BinanceAPI_Example";
+			productName = "Pods-BinanceAPI_Example";
+			productReference = C55A902A44017D355F9AF59031B9A787 /* Pods_BinanceAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8A9DEDF4D70DFF116677EB06ED68CB8 /* BinanceAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AEAD701108301A4174B50D528C8DE3 /* Build configuration list for PBXNativeTarget "BinanceAPI" */;
+			buildPhases = (
+				A7CE1314D5D1FE15867C8535AA609003 /* Headers */,
+				60FEAB9BF006F23A938D8592A62F5CD2 /* Sources */,
+				ACD54A529B503265F0613AE8EF14D5ED /* Frameworks */,
+				7931471774BBA2F2FEDB94774F0DF633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinanceAPI;
+			productName = BinanceAPI;
+			productReference = A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E190AE9F5DA795DC0C902FB5A41D56FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A9DEDF4D70DFF116677EB06ED68CB8 /* BinanceAPI */,
+				7CE00197A2E4CEB0D22BEDD150F3A656 /* Pods-BinanceAPI_Example */,
+				3F427B7E63D29A8A0A604945FEB5008D /* Pods-BinanceAPI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E9AAC25341E709D059F87CED52542E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931471774BBA2F2FEDB94774F0DF633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F9601C1CC8A8B3C82F76140D7C0897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FEAB9BF006F23A938D8592A62F5CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF4871D527F1E4F915B002F9D98A9E0 /* BinanceAPI-dummy.m in Sources */,
+				B7CFBB8E734F590601F24CE861519849 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E85B474115D94946DBCAE0A864EFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A175D2502490E2CB390D3C5F9CDAEC9 /* Pods-BinanceAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C718CA9109F816A43307AA2659BCE3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F66B61038D63FE9BD98DBF3A4CEA350 /* Pods-BinanceAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682F0426D468975213D6CE0E9502D3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BinanceAPI;
+			target = B8A9DEDF4D70DFF116677EB06ED68CB8 /* BinanceAPI */;
+			targetProxy = 0D2CE62D616E177D169834184EC4F8D5 /* PBXContainerItemProxy */;
+		};
+		E26E2C2E7297566234FD7FF4183457EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BinanceAPI_Example";
+			target = 7CE00197A2E4CEB0D22BEDD150F3A656 /* Pods-BinanceAPI_Example */;
+			targetProxy = 48007EFDBA072F9E82CFCED565FC40E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B0F155EFE4DC1B27D62E8CB0497DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214A9C8CDDED371AADB15E66A2BFDD0D /* Pods-BinanceAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		270E754BB8A19FDC7889BB228E218467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCBB84B3D15ECAE2D8987D9E19BBDC6 /* BinanceAPI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BinanceAPI/BinanceAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BinanceAPI/BinanceAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BinanceAPI/BinanceAPI.modulemap";
+				PRODUCT_MODULE_NAME = BinanceAPI;
+				PRODUCT_NAME = BinanceAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E3CEF95B050098C98F4FA1AF4EA1AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD5D59B966F149B4DB4289EF6C8239B /* Pods-BinanceAPI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BinanceAPI_Example/Pods-BinanceAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BinanceAPI_Example/Pods-BinanceAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EE4F4D496659C967682D92AE6C391B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4C27843D50A6177814F3B8828EC365 /* BinanceAPI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BinanceAPI/BinanceAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BinanceAPI/BinanceAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BinanceAPI/BinanceAPI.modulemap";
+				PRODUCT_MODULE_NAME = BinanceAPI;
+				PRODUCT_NAME = BinanceAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5073C5DF74B6709CA91268C1424837F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0869CB08389F8F419D83658B57F63E /* Pods-BinanceAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75CEB60F706F6627CB7DF2B4F6AEF015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3D18E856C347DBF4395743499726DC /* Pods-BinanceAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BinanceAPI_Example/Pods-BinanceAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BinanceAPI_Example/Pods-BinanceAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F3FB88B957589AB45A49846457AED7 /* Build configuration list for PBXNativeTarget "Pods-BinanceAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CEB60F706F6627CB7DF2B4F6AEF015 /* Debug */,
+				2E3CEF95B050098C98F4FA1AF4EA1AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2203512EB9767296199B23BEE866C3 /* Build configuration list for PBXNativeTarget "Pods-BinanceAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5073C5DF74B6709CA91268C1424837F7 /* Debug */,
+				01B0F155EFE4DC1B27D62E8CB0497DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AEAD701108301A4174B50D528C8DE3 /* Build configuration list for PBXNativeTarget "BinanceAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE4F4D496659C967682D92AE6C391B5 /* Debug */,
+				270E754BB8A19FDC7889BB228E218467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

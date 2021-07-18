@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BinanceAPI_Example' do
+  pod 'BinanceAPI', :path => '../'
+
+  target 'BinanceAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

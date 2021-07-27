@@ -12,7 +12,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		A285E15726B04C5F00C33139 /* URL+SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285E15626B04C5F00C33139 /* URL+SignatureTests.swift */; };
+		A285E15726B04C5F00C33139 /* URL+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A285E15626B04C5F00C33139 /* URL+UtilsTests.swift */; };
 		A2D7B00B26AC63ED0068B4AC /* SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7B00A26AC63ED0068B4AC /* SignatureTests.swift */; };
 		A51887EADD6F4D5C894B5843 /* Pods_BinanceAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C45F11291AFB4B58A98455 /* Pods_BinanceAPI_Example.framework */; };
 		A723D5F6D2D675AEFD9F337C /* Pods_BinanceAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A4625B79E850C63AE5A3C /* Pods_BinanceAPI_Tests.framework */; };
@@ -45,7 +45,7 @@
 		619A4625B79E850C63AE5A3C /* Pods_BinanceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E6B6D0DEC3BAB510D594DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		797CC5F0E657B7C37BD5B022 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A285E15626B04C5F00C33139 /* URL+SignatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+SignatureTests.swift"; sourceTree = "<group>"; };
+		A285E15626B04C5F00C33139 /* URL+UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+UtilsTests.swift"; sourceTree = "<group>"; };
 		A2D7B00A26AC63ED0068B4AC /* SignatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureTests.swift; sourceTree = "<group>"; };
 		E2AE5766D301165A163E1F80 /* Pods-BinanceAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceAPI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7CD67F557DB1052CC84DC1C /* Pods-BinanceAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceAPI_Tests.release.xcconfig"; path = "Target Support Files/Pods-BinanceAPI_Tests/Pods-BinanceAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				A2D7B00A26AC63ED0068B4AC /* SignatureTests.swift */,
-				A285E15626B04C5F00C33139 /* URL+SignatureTests.swift */,
+				A285E15626B04C5F00C33139 /* URL+UtilsTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -343,7 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A285E15726B04C5F00C33139 /* URL+SignatureTests.swift in Sources */,
+				A285E15726B04C5F00C33139 /* URL+UtilsTests.swift in Sources */,
 				A2D7B00B26AC63ED0068B4AC /* SignatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

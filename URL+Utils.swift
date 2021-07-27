@@ -1,5 +1,5 @@
 //
-//  URL+Signature.swift
+//  URL+Utils.swift
 //  BinanceAPI
 //
 //  Created by Lin Cheng Lung on 2021/7/26.
@@ -14,7 +14,7 @@ enum QuerySignatureError: Error {
 }
 
 extension URL {
-    func appendSignature(with key: String) throws -> URL {
+    func appendingSignature(with key: String) throws -> URL {
         guard let queryString = self.query else { throw QuerySignatureError.noQueryString }
         let signatureProvider = Signature()
 
@@ -25,6 +25,21 @@ extension URL {
         }
 
         components.queryItems?.append(URLQueryItem(name: "signature", value: signature))
+
+        guard let url = components.url else {
+            throw QuerySignatureError.urlDecodeFailed
+        }
+
+        return url
+    }
+
+    func appendingTimestamp() throws -> URL {
+        guard var components = URLComponents(url: self, resolvingAgainstBaseURL: true) else {
+            throw QuerySignatureError.componentEncodeFailed
+        }
+
+        let timestamp = Int(Date().timeIntervalSince1970 * 1000)
+        components.queryItems?.append(URLQueryItem(name: "timestamp", value: "\(timestamp)"))
 
         guard let url = components.url else {
             throw QuerySignatureError.urlDecodeFailed

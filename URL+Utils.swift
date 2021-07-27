@@ -7,24 +7,26 @@
 
 import Foundation
 
-enum QuerySignatureError: Error {
+public enum QuerySignatureError: Error {
     case noQueryString
     case componentEncodeFailed
     case urlDecodeFailed
 }
 
-extension URL {
+public extension URL {
     func appendingSignature(with key: String) throws -> URL {
         guard let queryString = self.query else { throw QuerySignatureError.noQueryString }
         let signatureProvider = Signature()
 
-        let signature = try signatureProvider.generate(queryString, key: key)
+        let signature = try signatureProvider.generate(queryString, secretKey: key)
 
         guard var components = URLComponents(url: self, resolvingAgainstBaseURL: true) else {
             throw QuerySignatureError.componentEncodeFailed
         }
 
-        components.queryItems?.append(URLQueryItem(name: "signature", value: signature))
+        var queryItems = components.queryItems ?? []
+        queryItems.append(URLQueryItem(name: "signature", value: signature))
+        components.queryItems = queryItems
 
         guard let url = components.url else {
             throw QuerySignatureError.urlDecodeFailed
@@ -39,7 +41,9 @@ extension URL {
         }
 
         let timestamp = Int(Date().timeIntervalSince1970 * 1000)
-        components.queryItems?.append(URLQueryItem(name: "timestamp", value: "\(timestamp)"))
+        var queryItems = components.queryItems ?? []
+        queryItems.append(URLQueryItem(name: "timestamp", value: "\(timestamp)"))
+        components.queryItems = queryItems
 
         guard let url = components.url else {
             throw QuerySignatureError.urlDecodeFailed

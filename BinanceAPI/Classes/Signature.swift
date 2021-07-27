@@ -7,18 +7,18 @@
 
 import CryptoKit
 
-struct Signature {
-    enum SignatureError: Error {
+public struct Signature {
+    public enum SignatureError: Error {
         case messageEncodingFailed
         case keyEncodingFailed
     }
 
-    func generate(_ message: String, key: String) throws -> String {
+    public func generate(_ message: String, secretKey: String) throws -> String {
         guard let messageData = message.data(using: .utf8) else {
             throw SignatureError.messageEncodingFailed
         }
         
-        guard let keyData = key.data(using: .utf8) else {
+        guard let keyData = secretKey.data(using: .utf8) else {
             throw SignatureError.keyEncodingFailed
         }
 

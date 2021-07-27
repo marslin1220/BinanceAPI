@@ -18,7 +18,7 @@ class SignatureTests: XCTestCase {
         let sut = Signature()
 
         // When
-        let signature = try sut.generate(message, key: key)
+        let signature = try sut.generate(message, secretKey: key)
 
         // Then
         XCTAssertEqual(signature, "c8db56825ae71d6d79447849e617115f4a920fa2acdcab2b053c4b2838bd6b71")

@@ -6,13 +6,24 @@
 //  Copyright (c) 2021 Cheng Lung Lin. All rights reserved.
 //
 
+import BinanceAPI
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let apiKeys = ApiKeys()
+        let service = BinanceSavingService(apiKey: apiKeys.apiKey, secretKey: apiKeys.secretKey)
+        service.getProductList { result in
+            switch result {
+            case let .success(products):
+                print(products)
+            case let .failure(error):
+                print(error)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

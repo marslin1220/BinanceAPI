@@ -11,7 +11,14 @@ public enum BinanceClientError: Error {
     case configureFailed
 }
 
-public struct BinanceClient {
+protocol BinanceClientProviding {
+    func makeDataTask(
+        with config: RequestConfig,
+        completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void
+    ) throws -> URLSessionDataTask
+}
+
+public struct BinanceClient: BinanceClientProviding {
     let apiKey: String
     let secretKey: String
 

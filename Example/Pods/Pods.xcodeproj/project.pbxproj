@@ -17,6 +17,8 @@
 		7426B03154087BA3B7A4BC33BD8BA028 /* BinanceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7361402DED70CE0654917A97F230E /* BinanceClient.swift */; };
 		7A175D2502490E2CB390D3C5F9CDAEC9 /* Pods-BinanceAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */; };
 		983FDA74BDF1D7241BCBBF7D362EB50D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A218680F26C96AAC00737550 /* BinanceSavingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218680E26C96AAC00737550 /* BinanceSavingService.swift */; };
+		A22270C626D2326C00D3A1BA /* SavingProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22270C526D2326C00D3A1BA /* SavingProduct.swift */; };
 		AAB6AA117A21567D31AFF190A99DB49E /* Pods-BinanceAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC26D6ECA77451B4B28106D61353EC1 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA6B61389869ED6415FB5D854F6909 /* URL+Utils.swift */; };
 /* End PBXBuildFile section */
@@ -41,15 +43,15 @@
 /* Begin PBXFileReference section */
 		0171FDB093E88693B4D502B54A3A59AF /* BinanceAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BinanceAPI.release.xcconfig; sourceTree = "<group>"; };
 		048D154D4CE653F9DD2F35999AD16511 /* BinanceAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BinanceAPI.modulemap; sourceTree = "<group>"; };
-		1558916C44FA204E71A45934EADED34D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1558916C44FA204E71A45934EADED34D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		16528D8944DE8EAFF7437771FC9B90F8 /* Pods-BinanceAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BinanceAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		214A9C8CDDED371AADB15E66A2BFDD0D /* Pods-BinanceAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27DEF774F5579C55C71B9509C2017AF9 /* Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signature.swift; path = BinanceAPI/Classes/Clients/Signature.swift; sourceTree = "<group>"; };
 		2EFA6B61389869ED6415FB5D854F6909 /* URL+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Utils.swift"; path = "BinanceAPI/Classes/Clients/URL+Utils.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DD5D59B966F149B4DB4289EF6C8239B /* Pods-BinanceAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		45B9548C78B546DA1E61BBDF23F76C17 /* Pods_BinanceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BinanceAPI_Tests.framework; path = "Pods-BinanceAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		468439111550B0C4E33F0117F77AA629 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45B9548C78B546DA1E61BBDF23F76C17 /* Pods_BinanceAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		468439111550B0C4E33F0117F77AA629 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BinanceAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5AD7361402DED70CE0654917A97F230E /* BinanceClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinanceClient.swift; path = BinanceAPI/Classes/Clients/BinanceClient.swift; sourceTree = "<group>"; };
 		5B7086F13F5DC6DD4321CBD6C5F21016 /* Pods-BinanceAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BinanceAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -61,13 +63,15 @@
 		76662E06631A01B5F8C0BBBFC63EA3DA /* Pods-BinanceAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E3D18E856C347DBF4395743499726DC /* Pods-BinanceAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BinanceAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93AE9D084067A2A05B09C7933C9AE6B6 /* Pods-BinanceAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95F2B6CCFB0B3000FE91C4CFDE6ECF8D /* BinanceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BinanceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BinanceAPI.framework; path = BinanceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2B6CCFB0B3000FE91C4CFDE6ECF8D /* BinanceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BinanceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A218680E26C96AAC00737550 /* BinanceSavingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSavingService.swift; sourceTree = "<group>"; };
+		A22270C526D2326C00D3A1BA /* SavingProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingProduct.swift; sourceTree = "<group>"; };
+		A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinanceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BinanceAPI_Example-dummy.m"; sourceTree = "<group>"; };
 		ADB9A55C180BC8EEEE0A88545DD92315 /* BinanceAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BinanceAPI.debug.xcconfig; sourceTree = "<group>"; };
 		B551C2FCFFD96EEC38CD4AEA780B34EB /* BinanceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BinanceAPI-dummy.m"; sourceTree = "<group>"; };
-		C55A902A44017D355F9AF59031B9A787 /* Pods_BinanceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BinanceAPI_Example.framework; path = "Pods-BinanceAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A902A44017D355F9AF59031B9A787 /* Pods_BinanceAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD700F68D47BF3033E6C14DFF82DB047 /* BinanceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BinanceAPI-prefix.pch"; sourceTree = "<group>"; };
 		D757E2A8D99933B2038E5B38DDB57D4A /* BinanceAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BinanceAPI-umbrella.h"; sourceTree = "<group>"; };
 		DE4E253D8B40648ABCEEE5D5E0E31196 /* Pods-BinanceAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Example-Info.plist"; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 		2D60CB33515AE63E76FC9A732EC73E2A /* BinanceAPI */ = {
 			isa = PBXGroup;
 			children = (
+				A22270C426D2325500D3A1BA /* Models */,
 				5AD7361402DED70CE0654917A97F230E /* BinanceClient.swift */,
+				A218680E26C96AAC00737550 /* BinanceSavingService.swift */,
 				27DEF774F5579C55C71B9509C2017AF9 /* Signature.swift */,
 				2EFA6B61389869ED6415FB5D854F6909 /* URL+Utils.swift */,
 				1FB6E18A48FE5F94251D37FF1FE61444 /* Pod */,
@@ -157,6 +163,14 @@
 				A496CEA8BBB44C98839F70A522FFD363 /* Pods-BinanceAPI_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A22270C426D2325500D3A1BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A22270C526D2326C00D3A1BA /* SavingProduct.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A496CEA8BBB44C98839F70A522FFD363 /* Pods-BinanceAPI_Tests */ = {
@@ -376,6 +390,8 @@
 				2FE971BE792A780AD017A798DB10581A /* BinanceAPI-dummy.m in Sources */,
 				7426B03154087BA3B7A4BC33BD8BA028 /* BinanceClient.swift in Sources */,
 				2BF5DDC9684067B3C7FCCEA021C5AAB2 /* Signature.swift in Sources */,
+				A22270C626D2326C00D3A1BA /* SavingProduct.swift in Sources */,
+				A218680F26C96AAC00737550 /* BinanceSavingService.swift in Sources */,
 				BAC26D6ECA77451B4B28106D61353EC1 /* URL+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,8 +518,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

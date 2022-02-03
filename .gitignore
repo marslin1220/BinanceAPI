@@ -35,3 +35,7 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
+
+# Source Code
+
+Example/BinanceAPI/ApiKeys.swift

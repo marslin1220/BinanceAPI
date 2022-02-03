@@ -43,7 +43,7 @@ public struct BinanceClient: BinanceClientProviding {
         let baseUrl = getBaseUrl()
         var baseUrlComponents = URLComponents(url: baseUrl, resolvingAgainstBaseURL: true)
         baseUrlComponents?.path = config.path
-        baseUrlComponents?.query = config.queries.reduce("") { "\($0 ?? "")&\($1.key)=\($1.value)" }
+        baseUrlComponents?.queryItems = config.queries.map { URLQueryItem(name: $0.0, value: $0.1) }
 
         guard let url = baseUrlComponents?.url else {
             throw BinanceClientError.configureFailed
@@ -51,7 +51,8 @@ public struct BinanceClient: BinanceClientProviding {
 
         let resultUrl: URL
         if config.withSignature {
-            resultUrl = try url.appendingTimestamp()
+            resultUrl = try url
+                .appendingTimestamp()
                 .appendingSignature(with: secretKey)
         } else {
             resultUrl = url
@@ -71,7 +72,7 @@ public struct RequestConfig {
     let httpMethod: HTTPMethod
     let withSignature: Bool
 
-    public init(path: String, queries: [String : String], httpMethod: HTTPMethod, withSignature: Bool = true) {
+    public init(path: String, queries: [String: String], httpMethod: HTTPMethod, withSignature: Bool = true) {
         self.path = path
         self.queries = queries
         self.httpMethod = httpMethod

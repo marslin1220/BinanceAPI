@@ -17,8 +17,8 @@
 		7426B03154087BA3B7A4BC33BD8BA028 /* BinanceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7361402DED70CE0654917A97F230E /* BinanceClient.swift */; };
 		7A175D2502490E2CB390D3C5F9CDAEC9 /* Pods-BinanceAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */; };
 		983FDA74BDF1D7241BCBBF7D362EB50D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A218680F26C96AAC00737550 /* BinanceSavingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218680E26C96AAC00737550 /* BinanceSavingService.swift */; };
 		A22270C626D2326C00D3A1BA /* SavingProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22270C526D2326C00D3A1BA /* SavingProduct.swift */; };
+		A2980D2327ABA02900D29BAA /* BinanceSavingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2980D2227ABA02800D29BAA /* BinanceSavingService.swift */; };
 		AAB6AA117A21567D31AFF190A99DB49E /* Pods-BinanceAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA3B84620CCE3ECC21C7D2EC862E389 /* Pods-BinanceAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC26D6ECA77451B4B28106D61353EC1 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA6B61389869ED6415FB5D854F6909 /* URL+Utils.swift */; };
 /* End PBXBuildFile section */
@@ -65,9 +65,9 @@
 		93AE9D084067A2A05B09C7933C9AE6B6 /* Pods-BinanceAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BinanceAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		95F2B6CCFB0B3000FE91C4CFDE6ECF8D /* BinanceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BinanceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A218680E26C96AAC00737550 /* BinanceSavingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSavingService.swift; sourceTree = "<group>"; };
 		A22270C526D2326C00D3A1BA /* SavingProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingProduct.swift; sourceTree = "<group>"; };
 		A24A26480B49BDE36E56D7FC82ECEDC0 /* BinanceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinanceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2980D2227ABA02800D29BAA /* BinanceSavingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BinanceSavingService.swift; path = BinanceAPI/Classes/BinanceSavingService.swift; sourceTree = "<group>"; };
 		ABE6F8241CF67772F40C357D8AF5AE57 /* Pods-BinanceAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BinanceAPI_Example-dummy.m"; sourceTree = "<group>"; };
 		ADB9A55C180BC8EEEE0A88545DD92315 /* BinanceAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BinanceAPI.debug.xcconfig; sourceTree = "<group>"; };
 		B551C2FCFFD96EEC38CD4AEA780B34EB /* BinanceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BinanceAPI-dummy.m"; sourceTree = "<group>"; };
@@ -121,11 +121,11 @@
 		2D60CB33515AE63E76FC9A732EC73E2A /* BinanceAPI */ = {
 			isa = PBXGroup;
 			children = (
-				A22270C426D2325500D3A1BA /* Models */,
 				5AD7361402DED70CE0654917A97F230E /* BinanceClient.swift */,
-				A218680E26C96AAC00737550 /* BinanceSavingService.swift */,
+				A2980D2227ABA02800D29BAA /* BinanceSavingService.swift */,
 				27DEF774F5579C55C71B9509C2017AF9 /* Signature.swift */,
 				2EFA6B61389869ED6415FB5D854F6909 /* URL+Utils.swift */,
+				A22270C426D2325500D3A1BA /* Models */,
 				1FB6E18A48FE5F94251D37FF1FE61444 /* Pod */,
 				4A5EF69FC0B766EAC5E3525CA882644C /* Support Files */,
 			);
@@ -391,7 +391,7 @@
 				7426B03154087BA3B7A4BC33BD8BA028 /* BinanceClient.swift in Sources */,
 				2BF5DDC9684067B3C7FCCEA021C5AAB2 /* Signature.swift in Sources */,
 				A22270C626D2326C00D3A1BA /* SavingProduct.swift in Sources */,
-				A218680F26C96AAC00737550 /* BinanceSavingService.swift in Sources */,
+				A2980D2327ABA02900D29BAA /* BinanceSavingService.swift in Sources */,
 				BAC26D6ECA77451B4B28106D61353EC1 /* URL+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
